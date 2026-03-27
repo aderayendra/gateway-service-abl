@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: example_route
+          uri: https://example.org
+          predicates:
+            - Path=/get/**
+
+server:
+  port: 8082
