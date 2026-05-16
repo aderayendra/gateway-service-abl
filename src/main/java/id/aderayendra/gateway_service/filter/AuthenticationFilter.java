@@ -23,7 +23,8 @@ public class AuthenticationFilter extends AbstractGatewayFilterFactory<Authentic
             "/api/auth/login",
             "/api/auth/register",
             "/api/auth/validate",
-            "/eureka"
+            "/eureka",
+            "/actuator"
     );
 
     public AuthenticationFilter() {
